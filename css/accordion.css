@@ -1,0 +1,107 @@
+ul.tabs {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  height: 32px;
+  width: 100%;
+}
+
+ul.tabs li {
+  float: left;
+  margin: 0;
+  cursor: pointer;
+  padding: 0px 21px;
+  height: 31px;
+  line-height: 31px;
+  background-color: #e12454;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  position: relative;
+}
+
+.tab_last {
+  border-right: 0px solid #333;
+}
+
+ul.tabs li:hover {
+  background-color: rgb(241, 241, 241);
+  color: #223a66;
+}
+
+ul.tabs li.active {
+  background-color: #fff;
+  color: #333;
+  border-bottom: 1px solid #fff;
+  display: block;
+}
+
+.tab_container {
+  border: 3px solid #333;
+  clear: both;
+  float: left;
+  width: 100%;
+  background: #fff;
+  overflow: auto;
+  border-radius: 15px;
+  box-shadow: 6px 8px #888888;
+}
+
+.tab_content {
+  margin: 50px;
+  padding: 0px;
+  display: none;
+}
+
+.form-group_trading {
+  box-shadow: 2px 2px 5px grey;
+}
+
+.form_control_trading {
+  margin: 5px;
+}
+
+.fg_span {
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  background-color: grey;
+  color: white;
+}
+
+.tab_content p {
+  margin: 10px;
+  padding-left: 10px;
+  font-size: 26px;
+  color: rgb(71, 69, 69);
+}
+
+.tab_drawer_heading {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .tabs {
+    display: none;
+  }
+  .tab_drawer_heading {
+    background-color: #ccc;
+    color: #fff;
+    border-top: 1px solid #333;
+    margin: 0;
+    padding: 5px 20px;
+    display: block;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .d_active {
+    background-color: #666;
+    color: #fff;
+  }
+}

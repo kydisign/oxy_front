@@ -1,0 +1,97 @@
+.tracking {
+  box-shadow: 10px 15px 35px grey;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.dropdown_2 {
+  border-radius: 20px;
+  border: 1px rgb(0, 0, 0);
+  border-style: solid;
+  margin: 5px;
+}
+
+.taobao {
+  border-radius: 20px;
+  border: 1px rgb(0, 0, 0);
+  border-style: solid;
+  padding: 5px;
+}
+
+/* taobao content */
+
+.select-image {
+  margin: 10px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.select-image-input {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.select-image-list {
+  display: none;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+.show {
+  display: block;
+}
+.select-image-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.select-image-option img {
+  width: 3640px;
+}
+
+.select-image-list .select-image-option img {
+  width: 120px;
+  border: block;
+}
+
+/* end taobao content */
+
+.contrade .row {
+  font-size: 18px;
+  text-align: center;
+}
+
+.contrade h5 {
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  font-size: 28px;
+}
+
+.bgcolor {
+  background-color: #223a66;
+}
+
+.context {
+  border: solid #000000;
+}
+
+.context p {
+  color: black;
+  font-weight: 700;
+}
+
+.bgwarning {
+  background-color: rgb(255, 255, 2);
+}
+
+tbody td {
+  text-align: start;
+}
+
+.space_p {
+  width: 240px;
+}
