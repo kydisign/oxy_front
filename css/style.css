@@ -1080,9 +1080,23 @@ a:focus {
   text-align: center;
   border: 5px solid #eef2f6;
   padding: 50px 25px;
+  height: 250px;
+}
+
+.contact-block_2 {
+  text-align: center;
+  border: 5px solid #eef2f6;
+  padding: 50px 25px;
 }
 
 .contact-block i {
+  font-size: 50px;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: #e12454;
+}
+
+.contact-block_2 i {
   font-size: 50px;
   margin-bottom: 15px;
   display: inline-block;

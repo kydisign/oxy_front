@@ -1,8 +1,27 @@
+.tracking_div {
+  margin-top: -70px;
+}
+.tracking_div-item {
+  flex-basis: 33.33%;
+  margin: 0px 10px;
+  padding: 40px 30px;
+  background-color: #fff;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+}
 .tracking {
   box-shadow: 10px 15px 35px grey;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 20px;
+}
+
+.clients {
+  max-height: 380px;
+}
+
+.contact-info {
+  margin-top: -150px;
 }
 
 .dropdown_2 {
